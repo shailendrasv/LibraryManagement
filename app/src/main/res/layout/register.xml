@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/bckgrnd">
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+           android:hint="Name"
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stRoll"
+            android:layout_below="@+id/stName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Roll No."
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stBranch"
+            android:layout_below="@+id/stRoll"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Branch"
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/stYear"
+           android:layout_below="@+id/stBranch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Year"
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/stEmail"
+            android:layout_below="@+id/stYear"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+           android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Email"
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/stPhone"
+            android:layout_below="@+id/stEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true"
+            android:hint="Phone No."
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stUsername"
+            android:layout_below="@+id/stPhone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="User Name"
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/stPassword"
+            android:layout_below="@+id/stUsername"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Password"
+            android:textColorHint="#f4e6e6"
+            android:layout_margin="2dp" />
+
+        <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:inputType="textPassword"
+         android:ems="10"
+         android:id="@+id/stCnfrmPass"
+         android:layout_below="@+id/stPassword"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true"
+         android:hint="Confirm password"
+         android:textColorHint="#f4e6e6"
+         android:layout_margin="2dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="REGISTER"
+            android:onClick="register_register"
+            android:id="@+id/stRegister"
+            android:height="40dp"
+            android:layout_below="@+id/stCnfrmPass"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp" />
+    </RelativeLayout>

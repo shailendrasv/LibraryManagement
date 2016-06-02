@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "616441974433",
+    "project_id": "librarymanagement-38301"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616441974433:android:f2899708e679dd25",
+        "android_client_info": {
+          "package_name": "in.ac.mmmut.librarymanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSkjXREbQWQ0bQHxq87sfwjP-4Mj9l1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

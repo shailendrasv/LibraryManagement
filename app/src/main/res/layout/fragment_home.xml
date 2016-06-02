@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dr.library_app.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Fragment"
+            android:id="@+id/fragment_home"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/ac_name"
+            android:layout_alignStart="@+id/ac_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_name"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_below="@+id/fragment_home"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_roll_no"
+            android:layout_below="@+id/ac_name"
+            android:layout_alignLeft="@+id/ac_name"
+            android:layout_alignStart="@+id/ac_name"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_branch"
+            android:layout_below="@+id/ac_roll_no"
+            android:layout_alignLeft="@+id/ac_roll_no"
+            android:layout_alignStart="@+id/ac_roll_no"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_year"
+            android:layout_below="@+id/ac_branch"
+            android:layout_alignLeft="@+id/ac_branch"
+            android:layout_alignStart="@+id/ac_branch"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_email"
+            android:layout_below="@+id/ac_year"
+            android:layout_alignLeft="@+id/ac_year"
+            android:layout_alignStart="@+id/ac_year"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_phone"
+            android:layout_below="@+id/ac_email"
+            android:layout_alignLeft="@+id/ac_email"
+            android:layout_alignStart="@+id/ac_email"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_username"
+            android:layout_below="@+id/ac_phone"
+            android:layout_alignLeft="@+id/ac_phone"
+            android:layout_alignStart="@+id/ac_phone"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/ac_password"
+            android:layout_below="@+id/ac_username"
+            android:layout_alignLeft="@+id/ac_username"
+            android:layout_alignStart="@+id/ac_username" />
+
+    </RelativeLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

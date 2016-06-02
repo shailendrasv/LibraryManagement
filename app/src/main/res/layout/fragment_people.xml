@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dr.library_app.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="People Fragment"
+        android:id="@+id/fragment_people"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        ></TextView>
+
+</FrameLayout>

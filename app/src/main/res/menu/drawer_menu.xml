@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_id"
+            android:title="Home"
+            android:icon="@drawable/ic_home">
+        </item>
+        <item
+            android:id="@+id/pages_id"
+            android:title="Pages"
+            android:icon="@drawable/ic_pages">
+        </item>
+        <item
+            android:id="@+id/people_id"
+            android:title="People"
+            android:icon="@drawable/ic_people">
+        </item>
+        <item
+            android:id="@+id/communities_id"
+            android:title="Communities"
+            android:icon="@drawable/ic_communities">
+        </item>
+        <item
+            android:id="@+id/photos_id"
+            android:title="Photos"
+            android:icon="@drawable/ic_photos">
+        </item>
+        <item
+            android:id="@+id/whatshot_id"
+            android:title="What's hot"
+            android:icon="@drawable/ic_whats_hot">
+        </item>
+        <item
+            android:id="@+id/account_id"
+            android:title="Account Info"
+            android:icon="@drawable/my_account">
+        </item>
+
+    </group>
+
+</menu>
