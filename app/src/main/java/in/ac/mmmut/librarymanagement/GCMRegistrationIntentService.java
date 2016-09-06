@@ -73,7 +73,7 @@ public class GCMRegistrationIntentService extends IntentService {
         paramPost.put("action","add");
         paramPost.put("tokenid", token);
         try {
-            String msgResult = getStringResultFromService_POST("http://libraryphp-shailu.rhcloud.com/librarymanagement/gcm.php", paramPost);
+            String msgResult = getStringResultFromService_POST("http://libraryphp-shailu.rhcloud.com/gcm.php", paramPost);
             Log.w("ServiceResponseMsg", msgResult);
         }catch (Exception e){
             e.printStackTrace();

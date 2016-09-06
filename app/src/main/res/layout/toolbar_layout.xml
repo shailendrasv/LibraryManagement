@@ -8,7 +8,6 @@
     android:minHeight="?attr/actionBarSize"
     android:fitsSystemWindows="true"
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-
-    >
+    app:menu="@menu/drawer_menu">
 
 </android.support.v7.widget.Toolbar>

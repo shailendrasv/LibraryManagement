@@ -16,7 +16,7 @@ import java.io.IOException;
 
 public class ApiConnector {
     public JSONArray GetAllBooks() {
-        String url = "http://libraryphp-shailu.rhcloud.com/librarymanagement/get-data.php";
+        String url = "http://libraryphp-shailu.rhcloud.com/get-data.php";
         HttpEntity httpEntity = null;
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();
@@ -45,7 +45,7 @@ public class ApiConnector {
     }
     public JSONArray GetBooksDetails(int BookID)
     {
-        String url = "http://libraryphp-shailu.rhcloud.com/librarymanagement/getBookDetails.php?id="+BookID;
+        String url = "http://libraryphp-shailu.rhcloud.com/getBookDetails.php?id="+BookID;
         HttpEntity httpEntity = null;
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();

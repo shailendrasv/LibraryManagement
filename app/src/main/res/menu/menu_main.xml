@@ -3,6 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.dr.library_app.MainActivity" >
 
+    <item android:id="@+id/myAccount" android:title="My Account"/>
+    <item android:id="@+id/addToWishlist" android:title="My Wishlist"/>
+    <item android:id="@+id/aboutus" android:title="About Us"/>
     <item android:id="@+id/menuLogout" android:title="Logout"/>
 
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
 </menu>

@@ -70,38 +70,7 @@ public class GetAllBooksListViewAdapter extends BaseAdapter {
             JSONObject jsonObject = this.dataArray.getJSONObject(position);
             cell.BookName.setText(jsonObject.getString("name"));
             cell.AuthorName.setText(jsonObject.getString("author"));
-            String name = jsonObject.getString("name");
-            /*if (name.equals("Algorithm"))
-            {
-                cell.book_image.setImageResource(R.drawable.algorithm);
-            }
-            else if (name.equals("OS"))
-            {
-                cell.book_image.setImageResource(R.drawable.os);
-            }
-            else if (name.equals("JAVA"))
-            {
-                cell.book_image.setImageResource(R.drawable.java);
-            }
-            else  if (name.equals("Data Structure"))
-            {
-                cell.book_image.setImageResource(R.drawable.data_structure);
-            }
-            else if (name.equals("C"))
-            {
-                cell.book_image.setImageResource(R.drawable.c);
-            }
-            else if (name.equals("Linux"))
-            {
-                cell.book_image.setImageResource(R.drawable.linux);
-            }
-            else if (name.equals("C++"))
-            {
-                cell.book_image.setImageResource(R.drawable.c_plus_plus);
-            }
-            else {
-                cell.book_image.setImageResource(R.drawable.book);
-            }*/
+
             String nameOfImage= jsonObject.getString("imageName");
 
             String urlForImageInServer= baseUrlForImage + nameOfImage;

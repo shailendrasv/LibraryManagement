@@ -94,7 +94,7 @@ public class Register extends AppCompatActivity {
             int tmp;
 
             try {
-                URL url = new URL("http://libraryphp-shailu.rhcloud.com/librarymanagement/register.php");
+                URL url = new URL("http://libraryphp-shailu.rhcloud.com/register.php");
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
                 httpURLConnection.setDoOutput(true);

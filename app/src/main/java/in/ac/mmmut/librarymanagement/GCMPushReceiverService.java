@@ -33,7 +33,7 @@ public class GCMPushReceiverService extends GcmListenerService {
         //build the notification
         NotificationCompat.Builder notifBuilder= new NotificationCompat.Builder(this)
                 .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("My GCM Message")
+                .setContentTitle("Library App Message")
                 .setContentText(message)
                 .setAutoCancel(true)
                 .setSound(sound)
